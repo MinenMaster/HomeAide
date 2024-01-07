@@ -24,11 +24,53 @@ build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Development/projects/HomeAide/HomeAide/MainPage.xaml]
+[D:/Development/projects/HomeAide/HomeAide/Pages/DeveloperTools.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.Pages.DeveloperTools.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DeveloperTools.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DeveloperTools.xaml
+
+[D:/Development/projects/HomeAide/HomeAide/Pages/Energy.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.Pages.Energy.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Energy.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Energy.xaml
+
+[D:/Development/projects/HomeAide/HomeAide/Pages/Help.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.Pages.Help.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Help.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Help.xaml
+
+[D:/Development/projects/HomeAide/HomeAide/Pages/History.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.Pages.History.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\History.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\History.xaml
+
+[D:/Development/projects/HomeAide/HomeAide/Pages/Logbook.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.Pages.Logbook.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Logbook.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Logbook.xaml
+
+[D:/Development/projects/HomeAide/HomeAide/Pages/Overview.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.Pages.Overview.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Overview.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Overview.xaml
+
+[D:/Development/projects/HomeAide/HomeAide/Pages/PlantStatus.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.Pages.PlantStatus.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PlantStatus.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PlantStatus.xaml
+
+[D:/Development/projects/HomeAide/HomeAide/Pages/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HomeAide.Pages.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Settings.xaml
 
 [D:/Development/projects/HomeAide/HomeAide/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

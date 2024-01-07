@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HomeAide.Pages.Energy">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Top-Left -->
+        <Label Grid.Row="0"
+               Grid.Column="0"
+               Text="HomeAide"
+               FontFamily="Montserrat"
+               FontSize="24"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+
+        <!-- Top-Right -->
+        <BoxView Grid.Column="1"
+            Color="#2A2C2F" />
+        <Label Grid.Column="1"
+               Text="Energy"
+               VerticalOptions="Center"
+               Padding="50, 0, 0, 0"
+               FontFamily="Montserrat"
+               FontSize="24"/>
+
+        <!-- Bottom-Right -->
+        <Label Grid.Row="1"
+               Grid.Column="1"
+               Text="Content"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <!-- Bottom-Left -->
+        <BoxView Grid.Row="1"
+                Color="#2A2C2F" />
+        <FlexLayout Grid.Row="1"
+                    Direction="Column"
+                    JustifyContent="SpaceBetween"
+                    AlignItems="Center">
+            <Button x:Name="OverviewButton"
+                    Text="Overview"
+                    Clicked="OnOverviewClicked"
+                    FontFamily="Montserrat"
+                    FontSize="16"/>
+            <Button x:Name="LogbookButton"
+                    Text="Logbook"
+                    Clicked="OnLogbookClicked"
+                    FontFamily="Montserrat"
+                    FontSize="16"/>
+            <Button x:Name="HistoryButton"
+                    Text="History"
+                    Clicked="OnHistoryClicked"
+                    FontFamily="Montserrat"
+                    FontSize="16"/>
+            <Button x:Name="EnergyButton"
+                    Text="Energy"
+                    Clicked="OnEnergyClicked"
+                    FontFamily="Montserrat"
+                    FontSize="16"
+                    TextColor="#3296dc"
+                    BackgroundColor="#663296dc"
+                    WidthRequest="200"/>
+            <Button x:Name="PlantStatusButton"
+                    Text="Plant Status"
+                    Clicked="OnPlantStatusClicked"
+                    FontFamily="Montserrat"
+                    FontSize="16"/>
+            <Button x:Name="MailboxButton"
+                    Text="Mailbox"
+                    FontFamily="Montserrat"
+                    FontSize="16"/>
+            <Button x:Name="DeveloperToolsButton"
+                    Text="Developer Tools"
+                    Clicked="OnDeveloperToolsClicked"
+                    FontFamily="Montserrat"
+                    FontSize="16"/>
+
+            <!-- Empty space to push buttons to the bottom -->
+            <BoxView FlexLayout.Grow="1" />
+
+            <Button x:Name="SettingsButton"
+                    Text="Settings"
+                    Clicked="OnSettingsClicked"
+                    FontFamily="Montserrat"
+                    FontSize="16"/>
+            <Button x:Name="HelpButton"
+                    Text="Help"
+                    Clicked="OnHelpClicked"
+                    FontFamily="Montserrat"
+                    FontSize="16"/>
+            <Button x:Name="SignOutButton"
+                    Text="Sign Out"
+                    FontSize="16"/>
+        </FlexLayout>
+    </Grid>
+</ContentPage>

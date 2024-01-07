@@ -7,9 +7,6 @@
     Shell.FlyoutBehavior="Disabled"
     Title="HomeAide">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <ShellContent ContentTemplate="{DataTemplate local:Pages.Overview}"/>
 
 </Shell>
