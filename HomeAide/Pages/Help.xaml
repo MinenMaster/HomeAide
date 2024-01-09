@@ -32,12 +32,39 @@
            FontSize="24"/>
 
         <!-- Bottom-Right -->
-        <Label Grid.Row="1"
-           Grid.Column="1"
-           Text="Content"
-           HorizontalOptions="Center"
-           VerticalOptions="Center" />
+        <!--On English: -->
+        <VerticalStackLayout Grid.Column="1" Grid.Row="1" HorizontalOptions="Center">
+            <Label Text="Are there any problems with your app or do you need any other assistance?"
+                   FontSize="20"
+                   HorizontalOptions="Center" 
+                   Margin="0,40,0,0"/>
+            <Label Text="No problem! Fill out the contact form and we will help you."
+                   FontSize="20"
+                   HorizontalOptions="Center" 
+                   Margin="0,0,0,40"/>
+            <StackLayout HorizontalOptions="Center" WidthRequest="500">
+                <Label Text="First name:*"/>
+                <Entry x:Name="firstNameEntry" MaxLength="20" HeightRequest="40" />
+                <Label Text="Last name:*"/>
+                <Entry x:Name="lastNameEntry" MaxLength="20" HeightRequest="40" />
+                <Label Text="E-Mail:*"/>
+                <Entry x:Name="emailEntry" MaxLength="40" HeightRequest="40" />
 
+                <StackLayout x:Name="radioGroup" Margin="0,20,0,20">
+                    <Label Text="What is your concern?"/>
+                    <RadioButton Content="My app is broken"/>
+                    <RadioButton Content="Questions about the system" />
+                    <RadioButton Content="Questions about updates and security" />
+                </StackLayout>
+
+                <Label Text="I agree that my message may be used for collection purposes." />
+                <Switch x:Name="consentSwitch" ThumbColor="#3296dc" OnColor="Green" Margin="0,0,0,20"/>
+
+                <Entry Placeholder="Your message" x:Name="messageEntry" Margin="0,0,0,10"/>
+                <Button Text="Send" Clicked="OnSendMessageClicked" />
+            </StackLayout>
+        </VerticalStackLayout>
+        
         <!-- Bottom-Left -->
         <BoxView Grid.Row="1"
             Color="#2A2C2F" />

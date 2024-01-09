@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-07T21:37:13.170</Modified>
+      <Modified>2024-01-09T22:34:19.775</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-07T21:36:43.283</Modified>
+      <Modified>2024-01-09T21:39:53.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HomeAide.runtimeconfig.json">
       <PackagePath>HomeAide.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HomeAide.dll">
       <PackagePath>HomeAide.dll</PackagePath>
-      <Modified>2024-01-07T21:37:12.616</Modified>
+      <Modified>2024-01-09T22:34:19.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HomeAide.exe</PackagePath>
-      <Modified>2024-01-07T21:37:12.628</Modified>
+      <Modified>2024-01-09T22:34:19.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
