@@ -32909,24 +32909,28 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
+      "Microsoft.Maui.Essentials >= 8.0.3",
       "Microsoft.NET.ILLink.Tasks >= 8.0.0"
     ],
     "net8.0-ios17.0": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
+      "Microsoft.Maui.Essentials >= 8.0.3",
       "Microsoft.NET.ILLink.Tasks >= 8.0.0"
     ],
     "net8.0-maccatalyst17.0": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
+      "Microsoft.Maui.Essentials >= 8.0.3",
       "Microsoft.NET.ILLink.Tasks >= 8.0.0"
     ],
     "net8.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
-      "Microsoft.Maui.Controls.Compatibility >= 8.0.3"
+      "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
+      "Microsoft.Maui.Essentials >= 8.0.3"
     ]
   },
   "packageFolders": {
@@ -33002,6 +33006,10 @@
             "target": "Package",
             "version": "[8.0.3, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.3, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
@@ -33042,6 +33050,10 @@
             "version": "[8.0.3, )"
           },
           "Microsoft.Maui.Controls.Compatibility": {
+            "target": "Package",
+            "version": "[8.0.3, )"
+          },
+          "Microsoft.Maui.Essentials": {
             "target": "Package",
             "version": "[8.0.3, )"
           },
@@ -33088,6 +33100,10 @@
             "target": "Package",
             "version": "[8.0.3, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.3, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
@@ -33129,6 +33145,10 @@
             "version": "[8.0.3, )"
           },
           "Microsoft.Maui.Controls.Compatibility": {
+            "target": "Package",
+            "version": "[8.0.3, )"
+          },
+          "Microsoft.Maui.Essentials": {
             "target": "Package",
             "version": "[8.0.3, )"
           }

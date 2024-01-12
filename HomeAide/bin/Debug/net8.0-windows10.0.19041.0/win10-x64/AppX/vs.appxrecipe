@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>5EB61892054F553C7804AC0689156860FE5B7FFCD043F45B1999199B6394127A</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>DD6A7AE8762A868656426128F5DED06BFA4B84268D78031477E1DBBFE863EF78</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.homeaide_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.homeaide_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.homeaide</RegisteredPackageID>
@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-09T22:34:19.775</Modified>
+      <Modified>2024-01-12T21:48:01.387</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-09T21:39:53.998</Modified>
+      <Modified>2024-01-12T21:36:56.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HomeAide.runtimeconfig.json">
       <PackagePath>HomeAide.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-01T16:24:30.039</Modified>
+      <Modified>2024-01-12T20:30:22.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HomeAide.dll">
       <PackagePath>HomeAide.dll</PackagePath>
-      <Modified>2024-01-09T22:34:19.075</Modified>
+      <Modified>2024-01-12T21:48:00.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HomeAide.exe</PackagePath>
-      <Modified>2024-01-09T22:34:19.086</Modified>
+      <Modified>2024-01-12T21:48:00.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -73,6 +73,14 @@
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-01-01T15:16:08.677</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Italic-VariableFont_wght.ttf">
+      <PackagePath>Montserrat-Italic-VariableFont_wght.ttf</PackagePath>
+      <Modified>2024-01-10T18:54:23.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-VariableFont_wght.ttf">
+      <PackagePath>Montserrat-VariableFont_wght.ttf</PackagePath>
+      <Modified>2024-01-10T18:54:23.434</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-01-01T15:15:49.711</Modified>
@@ -81,213 +89,213 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-01-01T15:15:49.712</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-01T15:16:08.727</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_rounded.ico">
+      <PackagePath>appicon_rounded.ico</PackagePath>
+      <Modified>2024-01-10T19:22:42.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.422</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLargeTile.scale-100.png">
+      <PackagePath>appicon_roundedLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.353</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.452</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLargeTile.scale-125.png">
+      <PackagePath>appicon_roundedLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.479</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLargeTile.scale-150.png">
+      <PackagePath>appicon_roundedLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.525</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLargeTile.scale-200.png">
+      <PackagePath>appicon_roundedLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.682</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLargeTile.scale-400.png">
+      <PackagePath>appicon_roundedLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.933</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appicon_roundedLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.939</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appicon_roundedLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.973</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appicon_roundedLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.945</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appicon_roundedLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.953</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appicon_roundedLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.889</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appicon_roundedLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.897</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appicon_roundedLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.925</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appicon_roundedLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.903</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appicon_roundedLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.910</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appicon_roundedLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.744</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.scale-100.png">
+      <PackagePath>appicon_roundedLogo.scale-100.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.924</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.811</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.scale-125.png">
+      <PackagePath>appicon_roundedLogo.scale-125.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.819</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.scale-150.png">
+      <PackagePath>appicon_roundedLogo.scale-150.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.828</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.scale-200.png">
+      <PackagePath>appicon_roundedLogo.scale-200.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.838</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.scale-400.png">
+      <PackagePath>appicon_roundedLogo.scale-400.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.844</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.targetsize-16.png">
+      <PackagePath>appicon_roundedLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.944</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.851</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.targetsize-24.png">
+      <PackagePath>appicon_roundedLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.882</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.targetsize-256.png">
+      <PackagePath>appicon_roundedLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.858</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.targetsize-32.png">
+      <PackagePath>appicon_roundedLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.867</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedLogo.targetsize-48.png">
+      <PackagePath>appicon_roundedLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-01-10T19:22:42.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.088</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedMediumTile.scale-100.png">
+      <PackagePath>appicon_roundedMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.102</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedMediumTile.scale-125.png">
+      <PackagePath>appicon_roundedMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.116</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedMediumTile.scale-150.png">
+      <PackagePath>appicon_roundedMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.110</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.137</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedMediumTile.scale-200.png">
+      <PackagePath>appicon_roundedMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.228</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedMediumTile.scale-400.png">
+      <PackagePath>appicon_roundedMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.032</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedSmallTile.scale-100.png">
+      <PackagePath>appicon_roundedSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.039</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedSmallTile.scale-125.png">
+      <PackagePath>appicon_roundedSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.048</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedSmallTile.scale-150.png">
+      <PackagePath>appicon_roundedSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.059</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedSmallTile.scale-200.png">
+      <PackagePath>appicon_roundedSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.077</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedSmallTile.scale-400.png">
+      <PackagePath>appicon_roundedSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.980</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedStoreLogo.scale-100.png">
+      <PackagePath>appicon_roundedStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.991</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedStoreLogo.scale-125.png">
+      <PackagePath>appicon_roundedStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.000</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedStoreLogo.scale-150.png">
+      <PackagePath>appicon_roundedStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.011</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedStoreLogo.scale-200.png">
+      <PackagePath>appicon_roundedStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.024</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedStoreLogo.scale-400.png">
+      <PackagePath>appicon_roundedStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.242</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedWideTile.scale-100.png">
+      <PackagePath>appicon_roundedWideTile.scale-100.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.259</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedWideTile.scale-125.png">
+      <PackagePath>appicon_roundedWideTile.scale-125.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.281</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedWideTile.scale-150.png">
+      <PackagePath>appicon_roundedWideTile.scale-150.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.315</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedWideTile.scale-200.png">
+      <PackagePath>appicon_roundedWideTile.scale-200.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-01-01T15:16:09.400</Modified>
+    <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_roundedWideTile.scale-400.png">
+      <PackagePath>appicon_roundedWideTile.scale-400.png</PackagePath>
+      <Modified>2024-01-10T19:22:43.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.724</Modified>
+      <Modified>2024-01-10T19:22:42.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.734</Modified>
+      <Modified>2024-01-10T19:22:42.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.748</Modified>
+      <Modified>2024-01-10T19:22:42.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.829</Modified>
+      <Modified>2024-01-10T19:22:42.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-01T15:16:08.909</Modified>
+      <Modified>2024-01-10T19:22:43.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Development\projects\HomeAide\HomeAide\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HomeAide.deps.json">
       <PackagePath>HomeAide.deps.json</PackagePath>
-      <Modified>2024-01-07T21:36:42.991</Modified>
+      <Modified>2024-01-12T20:54:57.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\domin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

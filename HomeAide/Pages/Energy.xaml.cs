@@ -2,9 +2,13 @@ namespace HomeAide.Pages;
 
 public partial class Energy : ContentPage
 {
-	public Energy()
+    public Energy()
 	{
 		InitializeComponent();
+
+        TempSlider.ValueChanged += OnControlValueChanged;
+        TimePicker.PropertyChanged += OnControlValueChanged;
+        DatePicker.PropertyChanged += OnControlValueChanged;
     }
 
     private async void OnOverviewClicked(object sender, EventArgs e)
@@ -45,5 +49,20 @@ public partial class Energy : ContentPage
     private async void OnHelpClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new Help());
+    }
+
+    private void OnControlValueChanged(object sender, EventArgs e)
+    {
+        UpdateTimedTempButtonBackgroundColor();
+    }
+
+    private void UpdateTimedTempButtonBackgroundColor()
+    {
+        TimedTempButton.BackgroundColor = Color.FromArgb("#2A2C2F");
+    }
+
+    private void OnTimedTempClicked(object sender, EventArgs e)
+    {
+        TimedTempButton.BackgroundColor = Color.FromArgb("#32c864");
     }
 }

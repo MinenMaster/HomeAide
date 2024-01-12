@@ -2,7 +2,7 @@ namespace HomeAide.Pages;
 
 public partial class Settings : ContentPage
 {
-	public Settings()
+    public Settings()
 	{
 		InitializeComponent();
     }
@@ -45,5 +45,10 @@ public partial class Settings : ContentPage
     private async void OnHelpClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new Help());
+    }
+
+    private void OnPickerButtonClicked(object sender, EventArgs e)
+    {
+        PickerButton.BackgroundColor = Color.FromArgb("#32c864");
     }
 }

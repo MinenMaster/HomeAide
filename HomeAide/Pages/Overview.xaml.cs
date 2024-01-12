@@ -5,7 +5,7 @@ public partial class Overview : ContentPage
 	public Overview()
 	{
 		InitializeComponent();
-	}
+    }
 
     private async void OnOverviewClicked(object sender, EventArgs e)
     {

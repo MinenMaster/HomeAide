@@ -80,12 +80,6 @@ public partial class Help : ContentPage
 
     private async Task SendEmail(string firstName, string lastName, string email, string message, bool consentGiven)
     {
-        // Reset the page
-        firstNameEntry.Text = "";
-        lastNameEntry.Text = "";
-        emailEntry.Text = "";
-        messageEntry.Text = "";
-        consentSwitch.IsToggled = false;
         foreach (var child in radioGroup.Children)
         {
             if (child is RadioButton radioButton)
@@ -94,6 +88,12 @@ public partial class Help : ContentPage
             }
         }
 
-        await DisplayAlert("Success", "Message was sent.", "OK");
+        await DisplayAlert("Success", "Message was sent: \nFirst Name: " + firstName + "\nLast Name: " + lastName + "\nEmail: " + email + "\nContent: " + message, "OK");
+
+        firstNameEntry.Text = "";
+        lastNameEntry.Text = "";
+        emailEntry.Text = "";
+        messageEntry.Text = "";
+        consentSwitch.IsToggled = false;
     }
 }

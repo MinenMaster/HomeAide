@@ -16,7 +16,7 @@
         <Label Grid.Row="0"
                Grid.Column="0"
                Text="HomeAide"
-               FontFamily="Montserrat"
+               
                FontSize="24"
                VerticalOptions="Center"
                HorizontalOptions="Center" />
@@ -28,15 +28,58 @@
                Text="Settings"
                VerticalOptions="Center"
                Padding="50, 0, 0, 0"
-               FontFamily="Montserrat"
+               
                FontSize="24"/>
 
         <!-- Bottom-Right -->
-        <Label Grid.Row="1"
-               Grid.Column="1"
-               Text="Content"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" />
+        <VerticalStackLayout Grid.Row="1"
+                             Grid.Column="1"
+                             HorizontalOptions="Center"
+                             Padding="50">
+            <Label Text="General Settings:"
+                   FontSize="24"
+                   Margin="0,0,0,20"
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="Available HomeAide-Server Adresses:"
+                   FontSize="16"
+                   Margin="0,0,0,10"
+                   HorizontalTextAlignment="Center"/>
+            <ListView SelectionMode="None"
+                      Margin="0,0,0,10"
+                      HorizontalOptions="Center"
+                      WidthRequest="250">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding .}"
+                                   FontSize="16"
+                                   HorizontalTextAlignment="Center"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Mom's Home; http://217.187.134.65:8123</x:String>
+                        <x:String>Dad's Home; http://60.176.240.44:8083</x:String>
+                        <x:String>HomeBase; http://197.137.63.27:8080</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+            <Label Text="Please pick active HomeAide System:"
+                   FontSize="16"
+                   Margin="0,0,0,10"
+                   HorizontalTextAlignment="Center"/>
+            <Picker Margin="0,0,0,20" WidthRequest="200" HorizontalTextAlignment="Center">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Mom's Home</x:String>
+                        <x:String>Dad's Home</x:String>
+                        <x:String>HomeBase</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button x:Name="PickerButton" Text="Set" FontSize="16" Clicked="OnPickerButtonClicked" WidthRequest="80"/>
+        </VerticalStackLayout>
 
         <!-- Bottom-Left -->
         <BoxView Grid.Row="1" 
@@ -48,36 +91,36 @@
             <Button x:Name="OverviewButton"
                     Text="Overview"
                     Clicked="OnOverviewClicked"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"/>
             <Button x:Name="LogbookButton"
                     Text="Logbook"
                     Clicked="OnLogbookClicked"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"/>
             <Button x:Name="HistoryButton"
                     Text="History"
                     Clicked="OnHistoryClicked"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"/>
             <Button x:Name="EnergyButton"
                     Text="Energy"
                     Clicked="OnEnergyClicked"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"/>
             <Button x:Name="PlantStatusButton"
                     Text="Plant Status"
                     Clicked="OnPlantStatusClicked"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"/>
             <Button x:Name="MailboxButton"
                     Text="Mailbox"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"/>
             <Button x:Name="DeveloperToolsButton"
                     Text="Developer Tools"
                     Clicked="OnDeveloperToolsClicked"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"/>
 
             <!-- Empty space to push buttons to the bottom -->
@@ -86,7 +129,7 @@
             <Button x:Name="SettingsButton"
                     Text="Settings"
                     Clicked="OnSettingsClicked"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"
                     TextColor="#3296dc"
                     BackgroundColor="#663296dc"
@@ -94,7 +137,7 @@
             <Button x:Name="HelpButton"
                     Text="Help"
                     Clicked="OnHelpClicked"
-                    FontFamily="Montserrat"
+                    
                     FontSize="16"/>
             <Button x:Name="SignOutButton"
                     Text="Sign Out"

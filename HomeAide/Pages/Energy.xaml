@@ -16,31 +16,60 @@
         <Label Grid.Row="0"
                Grid.Column="0"
                Text="HomeAide"
-               FontFamily="Montserrat"
                FontSize="24"
                VerticalOptions="Center"
                HorizontalOptions="Center" />
 
         <!-- Top-Right -->
         <BoxView Grid.Column="1"
-            Color="#2A2C2F" />
+                 Color="#2A2C2F" />
         <Label Grid.Column="1"
                Text="Energy"
                VerticalOptions="Center"
                Padding="50, 0, 0, 0"
-               FontFamily="Montserrat"
                FontSize="24"/>
 
         <!-- Bottom-Right -->
-        <Label Grid.Row="1"
-               Grid.Column="1"
-               Text="Content"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" />
+        <VerticalStackLayout Grid.Column="1" Grid.Row="1" Padding="50" >
+            <Label Text="Set the target temperatur and the target time:"
+                   HorizontalOptions="Center"
+                   FontSize="24"
+                   Margin="0,0,0,40"/>
+            <Label x:Name="TempLabel"
+                   BindingContext="{x:Reference TempSlider}"
+                   Text="{Binding Value, StringFormat='Final temperature: {0:F1} °C'}"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,100"/>
+            <Slider x:Name="TempSlider"
+                    Minimum="0"
+                    Maximum="40"
+                    WidthRequest="200"
+                    Value="23"
+                    Rotation="-90"
+                    MinimumTrackColor="#e67d1e"/>
+            <Label Text="Target time and date:"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   Margin="0,100,0,10"/>
+            <TimePicker x:Name="TimePicker"
+                        Format="HH:mm"
+                        Time="23:59"
+                        FontSize="16"
+                        HorizontalOptions="Center"
+                        BackgroundColor="#3296dc"/>
+            <DatePicker x:Name="DatePicker"
+                        Format="dd/mm/yyyy"
+                        FontSize="16"
+                        HorizontalOptions="Center"
+                        BackgroundColor="#3296dc"
+                        Margin="0,0,0,20"/>
+            <Button x:Name="TimedTempButton" Text="Set" FontSize="16" Clicked="OnTimedTempClicked" WidthRequest="80"/>
+        </VerticalStackLayout>
 
         <!-- Bottom-Left -->
         <BoxView Grid.Row="1"
-                Color="#2A2C2F" />
+                 Color="#2A2C2F" />
         <FlexLayout Grid.Row="1"
                     Direction="Column"
                     JustifyContent="SpaceBetween"
@@ -48,22 +77,18 @@
             <Button x:Name="OverviewButton"
                     Text="Overview"
                     Clicked="OnOverviewClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="LogbookButton"
                     Text="Logbook"
                     Clicked="OnLogbookClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="HistoryButton"
                     Text="History"
                     Clicked="OnHistoryClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="EnergyButton"
                     Text="Energy"
                     Clicked="OnEnergyClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"
                     TextColor="#3296dc"
                     BackgroundColor="#663296dc"
@@ -71,16 +96,13 @@
             <Button x:Name="PlantStatusButton"
                     Text="Plant Status"
                     Clicked="OnPlantStatusClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="MailboxButton"
                     Text="Mailbox"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="DeveloperToolsButton"
                     Text="Developer Tools"
                     Clicked="OnDeveloperToolsClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
 
             <!-- Empty space to push buttons to the bottom -->
@@ -89,12 +111,10 @@
             <Button x:Name="SettingsButton"
                     Text="Settings"
                     Clicked="OnSettingsClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="HelpButton"
                     Text="Help"
                     Clicked="OnHelpClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="SignOutButton"
                     Text="Sign Out"

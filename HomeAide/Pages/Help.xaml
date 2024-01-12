@@ -14,118 +14,137 @@
 
         <!-- Top-Left -->
         <Label Grid.Row="0"
-           Grid.Column="0"
-           Text="HomeAide"
-           FontFamily="Montserrat"
-           FontSize="24"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+               Grid.Column="0"
+               Text="HomeAide"
+               FontSize="24"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
 
         <!-- Top-Right -->
         <BoxView Grid.Column="1"
-        Color="#2A2C2F" />
+                 Color="#2A2C2F" />
         <Label Grid.Column="1"
-           Text="Help"
-           VerticalOptions="Center"
-           Padding="50, 0, 0, 0"
-           FontFamily="Montserrat"
-           FontSize="24"/>
+               Text="Help"
+               VerticalOptions="Center"
+               Padding="50, 0, 0, 0"
+               FontSize="24"/>
 
         <!-- Bottom-Right -->
-        <!--On English: -->
-        <VerticalStackLayout Grid.Column="1" Grid.Row="1" HorizontalOptions="Center">
+        <VerticalStackLayout Grid.Column="1" Grid.Row="1" Padding="50">
             <Label Text="Are there any problems with your app or do you need any other assistance?"
-                   FontSize="20"
-                   HorizontalOptions="Center" 
-                   Margin="0,40,0,0"/>
+                   FontSize="24"
+                   HorizontalOptions="Center"/>
             <Label Text="No problem! Fill out the contact form and we will help you."
-                   FontSize="20"
+                   FontSize="24"
                    HorizontalOptions="Center" 
                    Margin="0,0,0,40"/>
             <StackLayout HorizontalOptions="Center" WidthRequest="500">
                 <Label Text="First name:*"/>
-                <Entry x:Name="firstNameEntry" MaxLength="20" HeightRequest="40" />
-                <Label Text="Last name:*"/>
-                <Entry x:Name="lastNameEntry" MaxLength="20" HeightRequest="40" />
-                <Label Text="E-Mail:*"/>
-                <Entry x:Name="emailEntry" MaxLength="40" HeightRequest="40" />
+                <Entry x:Name="firstNameEntry"
+                       MaxLength="40"
+                       HeightRequest="40"/>
+                <Label Text="Last name:*"
+                       />
+                <Entry x:Name="lastNameEntry"
+                       MaxLength="40"
+                       HeightRequest="40"
+                       />
+                <Label Text="E-Mail:*"
+                       />
+                <Entry x:Name="emailEntry"
+                       MaxLength="40"
+                       HeightRequest="40"
+                       />
 
                 <StackLayout x:Name="radioGroup" Margin="0,20,0,20">
-                    <Label Text="What is your concern?"/>
-                    <RadioButton Content="My app is broken"/>
-                    <RadioButton Content="Questions about the system" />
-                    <RadioButton Content="Questions about updates and security" />
+                    <Label Text="What is your concern?"
+                           />
+                    <RadioButton Content="My app is broken"
+                                 />
+                    <RadioButton Content="Questions about the system"
+                                 />
+                    <RadioButton Content="Questions about updates and security"
+                                 />
                 </StackLayout>
 
-                <Label Text="I agree that my message may be used for collection purposes." />
-                <Switch x:Name="consentSwitch" ThumbColor="#3296dc" OnColor="Green" Margin="0,0,0,20"/>
+                <Label Text="I agree that my message may be used for collection purposes." 
+                       />
+                <Switch x:Name="consentSwitch"
+                        ThumbColor="#3296dc"
+                        OnColor="Green"
+                        Margin="0,0,0,20"/>
 
-                <Entry Placeholder="Your message" x:Name="messageEntry" Margin="0,0,0,10"/>
-                <Button Text="Send" Clicked="OnSendMessageClicked" />
+                <Entry x:Name="messageEntry"
+                       Placeholder="Your message*"
+                       Margin="0,0,0,10"
+                       />
+                <Button Text="Send"
+                        Clicked="OnSendMessageClicked"
+                        />
             </StackLayout>
         </VerticalStackLayout>
         
         <!-- Bottom-Left -->
         <BoxView Grid.Row="1"
-            Color="#2A2C2F" />
+                 Color="#2A2C2F" />
         <FlexLayout Grid.Row="1"
-                Direction="Column"
-                JustifyContent="SpaceBetween"
-                AlignItems="Center">
+                    Direction="Column"
+                    JustifyContent="SpaceBetween"
+                    AlignItems="Center">
             <Button x:Name="OverviewButton"
-                Text="Overview"
-                Clicked="OnOverviewClicked"
-                FontFamily="Montserrat"
-                FontSize="16"/>
+                    Text="Overview"
+                    Clicked="OnOverviewClicked"
+                    
+                    FontSize="16"/>
             <Button x:Name="LogbookButton"
-                Text="Logbook"
-                Clicked="OnLogbookClicked"
-                FontFamily="Montserrat"
-                FontSize="16"/>
+                    Text="Logbook"
+                    Clicked="OnLogbookClicked"
+                    
+                    FontSize="16"/>
             <Button x:Name="HistoryButton"
-                Text="History"
-                Clicked="OnHistoryClicked"
-                FontFamily="Montserrat"
-                FontSize="16"/>
+                    Text="History"
+                    Clicked="OnHistoryClicked"
+                    
+                    FontSize="16"/>
             <Button x:Name="EnergyButton"
-                Text="Energy"
-                Clicked="OnEnergyClicked"
-                FontFamily="Montserrat"
-                FontSize="16"/>
+                    Text="Energy"
+                    Clicked="OnEnergyClicked"
+                    
+                    FontSize="16"/>
             <Button x:Name="PlantStatusButton"
-                Text="Plant Status"
-                Clicked="OnPlantStatusClicked"
-                FontFamily="Montserrat"
-                FontSize="16"/>
+                    Text="Plant Status"
+                    Clicked="OnPlantStatusClicked"
+                    
+                    FontSize="16"/>
             <Button x:Name="MailboxButton"
-                Text="Mailbox"
-                FontFamily="Montserrat"
-                FontSize="16"/>
+                    Text="Mailbox"
+                    
+                    FontSize="16"/>
             <Button x:Name="DeveloperToolsButton"
-                Text="Developer Tools"
-                Clicked="OnDeveloperToolsClicked"
-                FontFamily="Montserrat"
-                FontSize="16"/>
+                    Text="Developer Tools"
+                    Clicked="OnDeveloperToolsClicked"
+                    
+                    FontSize="16"/>
 
             <!-- Empty space to push buttons to the bottom -->
             <BoxView FlexLayout.Grow="1" />
 
             <Button x:Name="SettingsButton"
-                Text="Settings"
-                Clicked="OnSettingsClicked"
-                FontFamily="Montserrat"
-                FontSize="16"/>
+                    Text="Settings"
+                    Clicked="OnSettingsClicked"
+                    
+                    FontSize="16"/>
             <Button x:Name="HelpButton"
-                Text="Help"
-                Clicked="OnHelpClicked"
-                FontFamily="Montserrat"
-                FontSize="16"
-                TextColor="#3296dc"
-                BackgroundColor="#663296dc"
-                WidthRequest="200"/>
+                    Text="Help"
+                    Clicked="OnHelpClicked"
+                    
+                    FontSize="16"
+                    TextColor="#3296dc"
+                    BackgroundColor="#663296dc"
+                    WidthRequest="200"/>
             <Button x:Name="SignOutButton"
-                Text="Sign Out"
-                FontSize="16"/>
+                    Text="Sign Out"
+                    FontSize="16"/>
         </FlexLayout>
     </Grid>
 </ContentPage>

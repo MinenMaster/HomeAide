@@ -17,7 +17,6 @@
         <Label Grid.Row="0"
                Grid.Column="0"
                Text="HomeAide"
-               FontFamily="Montserrat"
                FontSize="24"
                VerticalOptions="Center"
                HorizontalOptions="Center" />
@@ -29,20 +28,17 @@
                Text="Overview"
                VerticalOptions="Center"
                Padding="50, 0, 0, 0"
-               FontFamily="Montserrat"
                FontSize="24"/>
 
         <!-- Bottom-Right -->
-        <ScrollView Grid.Row="1"
-                    Grid.Column="1"
-                    Padding="50">
-            <Label Text="Content"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
-                   HorizontalTextAlignment="Center"/>
-        </ScrollView>
-        
-        
+        <Label Grid.Column="1"
+               Grid.Row="1"
+               Text="This is the Overview Page where you can add every sorts of components."
+               FontSize="16"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"/>
+
         <!-- Bottom-Left -->
         <BoxView Grid.Row="1"
                  Color="#2A2C2F" />
@@ -53,7 +49,6 @@
             <Button x:Name="OverviewButton"
                     Text="Overview"
                     Clicked="OnOverviewClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"
                     TextColor="#3296dc"
                     BackgroundColor="#663296dc"
@@ -61,31 +56,25 @@
             <Button x:Name="LogbookButton"
                     Text="Logbook"
                     Clicked="OnLogbookClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="HistoryButton"
                     Text="History"
                     Clicked="OnHistoryClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="EnergyButton"
                     Text="Energy"
-                    Clicked="OnEnergyClicked"
-                    FontFamily="Montserrat"
+                    Clicked="OnEnergyClicked" 
                     FontSize="16"/>
             <Button x:Name="PlantStatusButton"
                     Text="Plant Status"
                     Clicked="OnPlantStatusClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="MailboxButton"
                     Text="Mailbox"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="DeveloperToolsButton"
                     Text="Developer Tools"
-                    Clicked="OnDeveloperToolsClicked"
-                    FontFamily="Montserrat"
+                    Clicked="OnDeveloperToolsClicked" 
                     FontSize="16"/>
 
             <!-- Empty space to push buttons to the bottom -->
@@ -94,12 +83,10 @@
             <Button x:Name="SettingsButton"
                     Text="Settings"
                     Clicked="OnSettingsClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="HelpButton"
                     Text="Help"
                     Clicked="OnHelpClicked"
-                    FontFamily="Montserrat"
                     FontSize="16"/>
             <Button x:Name="SignOutButton"
                     Text="Sign Out"
