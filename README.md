@@ -12,7 +12,7 @@ HomeAide is a .NET MAUI application developed as an experiment to explore the ca
 
 **Development Status:** Experimental but done
 
-> **Note:** This project is purely design-based and was developed to explore and experiment with .NET MAUI's UI capabilities. The design was heavily inspired by HomeAssistant.
+> **Note:** This project is purely design-based and was developed to explore and experiment with .NET MAUI's UI capabilities. The design was heavily inspired by [HomeAssistant](https://www.home-assistant.io/).
 
 ## Getting Started
 
